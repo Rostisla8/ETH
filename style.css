@@ -1,0 +1,52 @@
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    text-align: center;
+}
+
+.content_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+
+.header {
+    text-align: center;
+}
+
+.time {
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 90px;
+}
+
+.content_price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_price>div {
+    margin: 10px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+}
